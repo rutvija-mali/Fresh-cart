@@ -1,0 +1,241 @@
+
+  :root{
+    --green:#0aad0a;
+    --grey : #5c6c75;
+    --black:black;
+    --white:rgb(246, 246, 231);
+    --light:#dfe2e1;
+  }
+    @media screen and (max-width : 720px )
+        {
+          #freshcartimg img{
+            width: 130px ;
+            height: 60px ;
+          }
+          body>#main>div#first
+          {
+             width: 100%;
+            justify-content: center;
+          }
+          body>#main>div#first div h5
+          {
+            
+            font-size:3.5vw;
+          }
+          a svg{
+            width: 17px;
+            height: 17px;
+          }
+         
+          }
+           /* slide */
+         
+         
+           @media screen and (max-width :988px) {
+            
+            #carouselExampleSlidesOnly h6
+            {
+            font-size: 60%;
+            }
+            #carouselExampleSlidesOnly h1{
+              font-size: 80%;
+            }
+            #carouselExampleSlidesOnly p{
+              font-size: 40%;
+            }
+            #carouselExampleSlidesOnly button{
+              padding:4px 9px;
+              font-size:90%;
+              line-height: 1.2;
+            
+            }
+            /* end of slide */
+           
+          
+        }
+        #searchSpace{
+            background-color:  #ffffff;
+            width: 500px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        #searchSpace svg{
+            margin: 20px;
+            color: gray;
+            position: absolute;
+            right: 30px;
+            transform: translateY(-30px);   
+        }
+        input[type="search"]{
+            margin: 20px;
+            max-width: 90%;
+            max-height: 90%;
+            background-color:#ffffff;
+            opacity: 0.8;
+            border: 1px solid grey;  /*might remove this border latter*/
+        }
+        #searchbarCanvas svg{
+        
+        position: absolute;
+        transform: translateY(-40px);
+        right: 30px;
+        }
+       #searchbarCanvas{
+        position: relative;
+       
+       }
+       #searchbarCanvas input{
+        margin: 10px;
+        width: 300px;
+       }
+      /* navbar */
+        a:link ,a:visited{
+         text-decoration: none;
+         color: var(--black);
+         border-radius: 0.5rem;
+
+        }
+         .dropdown .nav-link:active{
+          color: var(--green);
+        }
+        .dropdown .nav-link{
+
+          font-weight: 500;
+          line-height: 0.5rem;
+
+        }
+        .dropdown-menu li a{
+          color: var(--grey);
+        }
+        .dropdown .nav-link:hover , a:active
+        {
+           color:var(--green);
+
+        }
+        .list-group-item
+        {
+          border: none;
+        }
+        .dropdown a li:hover{
+          background-color:var(--light);
+          color: var(--black);
+        }
+        /* navbar end */
+        a:hover 
+        {
+          color:var(--green);
+        }
+        
+        
+
+        
+        a .list-group-item{
+          line-height: 0.5rem;
+          font-size: 0.87rem;
+          color: var(--grey);
+        }
+        /* a .list-group-item:hover{
+         background: #dde3e2;
+         color: black;
+        } */
+        .footer li a{
+
+          line-height: 0.5rem;
+          font-size: 0.87rem;
+          font-weight: 500;
+
+        }
+        
+       .mainContainer .dropdown-mega .dropdown-menu
+       {
+          width: 100%;
+       }
+       
+       
+
+        #timer .tbox
+       {
+        width: 80px;
+        text-align: center;
+        height: 70px;
+       }
+       /* .dropdown .dropdown-menu:hover {
+
+        transition: all 0.6s ease-in-out;
+        animation: drop 0.6s;
+       }
+       @keyframes drop {    tried
+        0%{
+          transform: translateY(10px);
+        }
+        50%{
+          transform: translateY(5px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+       } */
+        .card:hover
+       {
+        transition: all 0.3s ease-in-out;
+        transform: scale(1.002);
+        border: 1px solid var(--green);
+       }
+       .card .btn{
+        background-color: #0aad0a;
+        color: var(--white);
+        
+       }
+      .card .card-body {
+           line-height: 0.5rem;
+           font-size: 0.87rem;
+            font-weight: 600;
+          
+      }
+      .card .card-body h3{
+        line-height: 1.9rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+      .footer li .nav-link{
+        color: var(--grey);
+        font-weight: 600;
+      }
+      .footer li .nav-link:hover{
+        color: var(--green);
+      }
+      .card .card-body .product-action{
+
+        top: 100px;
+      }
+     
+     .card .card-body .product-action a {
+         display: none;
+         background-color: var(--white);
+         color: var(--black);
+         width: 60px;
+         height: 30px;
+        
+
+       
+      }
+      .card .card-body .product-action a i{
+
+        font-size: 0.9rem;
+      }
+      .card .card-body .product-action a:hover{
+        background-color: var(--green);
+        color: var(--white);
+      }
+      .card:hover .product-action a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+     }
+     .card .card-body a.btn:hover{
+      background-color: #078207;
+     }
+
